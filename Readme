@@ -1,0 +1,18 @@
+# Extractor de Salas desde PDF
+
+Esta app permite subir un plano en PDF, detectar salas automáticamente por nombre y generar un PDF con una sala por página.
+
+## Cómo desplegar en Streamlit Cloud
+
+1. Crea una cuenta gratuita en https://streamlit.io/cloud
+2. Conecta tu cuenta de GitHub
+3. Crea un nuevo repositorio y sube estos archivos: 
+   - extractor_salas_app.py
+   - requirements.txt
+   - README.md
+4. Entra a Streamlit Cloud y haz clic en "New app"
+5. Selecciona tu repo y pon como archivo principal `extractor_salas_app.py`
+6. Haz clic en "Deploy" y listo
+
+Tu app estará accesible desde una URL pública como:
+https://tuusuario-streamlit-nombreapp.streamlit.app
